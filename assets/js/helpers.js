@@ -21,7 +21,7 @@ function savePlayerName(){
             e.preventDefault();
             let name = $("#name").val();
             localStorage.setItem('playerName',name);
-            window.location.href="../pages/main.html";
+            window.location.href="./pages/main.html";
         });        
     }    
 }
