@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.index{
+    h1{
+        color: white;
+        font-size: 2.7rem;
+        background-color: rgba(46, 45, 45, 0.1);  
+    }
+    h2{
+        color: white;
+        font-size: 1rem;
+        background-color: rgba(46, 45, 45, 0.1);  
+        margin-top: 8rem;
+        margin-bottom: .5rem;
+        text-transform: uppercase;        
+    }
+    small{
+        font-size: .7rem;
+        color: white;
+        background-color: black;
+    }        
+    input[type=text], select {
+        width: 90%;
+        padding: 4px 10px;
+        margin: 8px 0;
+        margin-left: 16px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 90%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 7px 20px;
+        margin: 8px 0;
+        margin-left: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }    
+}
+
+.custom-game{
+        h2{
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            background-color: rgba(46, 45, 45, 0.1);  
+            text-transform: uppercase;        
+        }        
+        label{
+            color: white;
+        }       
+        input[type=text], select {
+            width: 90%;
+            padding: 4px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 90%;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1rem;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        } 
+}
+
+#NoQuestion{
+    display: none;
+    color: #fff;
+}
+
+.arrow, .game-container, .question, .validation-message, .validation-message-error{
+    display: none;
+}
+
+.main{
+    background-image: url('/assets/img/main-background.jpeg'); 
+    width: 100%;
+    height: 115vh;  
+    a{
+        text-decoration: none;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 2rem;
+        color: white; 
+        &:hover{
+            &.btn-1{
+                color: yellow;
+            }
+            &.btn-2{
+                color: aquamarine;
+            }
+            &.btn-3{
+                color: darkorange;
+            }
+            &.btn-4{
+                color: rgb(198, 157, 219);
+            }                                
+            .arrow{
+                display: inline-block;
+                font-size: 1rem;
+            }
+        }
+    } 
+    .numbers-countdown{
+        span{
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+    .validation-message, .validation-message-error{
+        position: absolute;
+        top: 45%;
+        color: #fff;
+        background-color: rgba(46, 45, 45, 0.1);   
+        h2{
+            font-size: 2rem;
+        }     
+    } 
+    .validation-message{
+        left: 23%;    
+    }     
+    .validation-message-error{
+        left: 33%;
+    }
+    .ranking-title{
+        text-align: center;
+        font-size: 2.2rem;
+        color: white; 
+        background-color: rgba(19, 18, 18, 0.1); 
+        margin-bottom: 1rem;       
+    }
+    #main-container{
+        width: 90%;
+        .row{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            width: 95%;
+            border: 1px solid #7d7777;
+            border-radius: 7px;
+            .col-6{
+                margin: 0;
+                padding: 0;
+                h3{
+                    font-size: 1.1rem;
+                    color: white;
+                    margin-top: .3rem;
+                    padding: 3px;
+                    text-align: center;
+                }
+            }
+            &:nth-of-type(1),&:nth-of-type(6){
+                margin-top: 1.5rem;
+                background-color: #183d5f;
+            } 
+            &:nth-of-type(6){
+                margin-top: 1rem;
+                background-color: #183d5f;
+            }         
+            &:nth-of-type(2),&:nth-of-type(7){
+                margin-top: 1rem;
+                background-color: #414d5a;
+            } 
+            &:nth-of-type(3),&:nth-of-type(8){
+                margin-top: 1rem;
+                background-color: #646d4c;
+            } 
+            &:nth-of-type(4),&:nth-of-type(9){
+                margin-top: 1rem;
+                background-color: #936c94;
+            }
+            &:nth-of-type(5),&:nth-of-type(10){
+                margin-top: 1rem;
+                background-color: #2a5f49;
+            }             
+        }                                      
+    }
+    #back-button{
+        margin-top: 2rem;
+        width: 10rem;
+        text-transform: uppercase;
+        padding: 8px;
+        background-color: rgb(156, 156, 153);
+        font-size: 1rem;
+        font-weight: bolder;
+        border-radius: 10px; 
+        &:hover{
+            color: #fff;
+            background-color: rgb(77, 134, 219);
+        }       
+    }
+}
+
+.main-info{
+    background-image: url('/assets/img/main-background.jpeg'); 
+    width: 100%;
+    height: 165vh;  
+    .info{
+        h2{
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+        }
+        ol{
+            width: 90%;
+            border: 1px solid #9bd0cd78;
+            color: #fff;
+            background-color: #262627e0;
+            font-size: 1.2rem;
+            li{
+                margin: 10px;
+            }
+        }
+    }        
+}

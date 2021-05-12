@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.index h1 {
+  color: white;
+  font-size: 2.7rem;
+  background-color: rgba(46, 45, 45, 0.1); }
+
+.index h2 {
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(46, 45, 45, 0.1);
+  margin-top: 8rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase; }
+
+.index small {
+  font-size: .7rem;
+  color: white;
+  background-color: black; }
+
+.index input[type=text], .index select {
+  width: 90%;
+  padding: 4px 10px;
+  margin: 8px 0;
+  margin-left: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.index input[type=submit] {
+  width: 90%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 20px;
+  margin: 8px 0;
+  margin-left: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder; }
+
+.index input[type=submit]:hover {
+  background-color: #45a049; }
+
+.custom-game h2 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(46, 45, 45, 0.1);
+  text-transform: uppercase; }
+
+.custom-game label {
+  color: white; }
+
+.custom-game input[type=text], .custom-game select {
+  width: 90%;
+  padding: 4px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.custom-game input[type=submit] {
+  width: 90%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder; }
+
+.custom-game input[type=submit]:hover {
+  background-color: #45a049; }
+
+#NoQuestion {
+  display: none;
+  color: #fff; }
+
+.arrow, .game-container, .question, .validation-message, .validation-message-error {
+  display: none; }
+
+.main {
+  background-image: url("/assets/img/main-background.jpeg");
+  width: 100%;
+  height: 115vh; }
+  .main a {
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 2rem;
+    color: white; }
+    .main a:hover.btn-1 {
+      color: yellow; }
+    .main a:hover.btn-2 {
+      color: aquamarine; }
+    .main a:hover.btn-3 {
+      color: darkorange; }
+    .main a:hover.btn-4 {
+      color: #c69ddb; }
+    .main a:hover .arrow {
+      display: inline-block;
+      font-size: 1rem; }
+  .main .numbers-countdown span p {
+    font-size: 2rem; }
+  .main .validation-message, .main .validation-message-error {
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    background-color: rgba(46, 45, 45, 0.1); }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 2rem; }
+  .main .validation-message {
+    left: 23%; }
+  .main .validation-message-error {
+    left: 33%; }
+  .main .ranking-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.1);
+    margin-bottom: 1rem; }
+  .main #main-container {
+    width: 90%; }
+    .main #main-container .row {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      width: 95%;
+      border: 1px solid #7d7777;
+      border-radius: 7px; }
+      .main #main-container .row .col-6 {
+        margin: 0;
+        padding: 0; }
+        .main #main-container .row .col-6 h3 {
+          font-size: 1.1rem;
+          color: white;
+          margin-top: .3rem;
+          padding: 3px;
+          text-align: center; }
+      .main #main-container .row:nth-of-type(1), .main #main-container .row:nth-of-type(6) {
+        margin-top: 1.5rem;
+        background-color: #183d5f; }
+      .main #main-container .row:nth-of-type(6) {
+        margin-top: 1rem;
+        background-color: #183d5f; }
+      .main #main-container .row:nth-of-type(2), .main #main-container .row:nth-of-type(7) {
+        margin-top: 1rem;
+        background-color: #414d5a; }
+      .main #main-container .row:nth-of-type(3), .main #main-container .row:nth-of-type(8) {
+        margin-top: 1rem;
+        background-color: #646d4c; }
+      .main #main-container .row:nth-of-type(4), .main #main-container .row:nth-of-type(9) {
+        margin-top: 1rem;
+        background-color: #936c94; }
+      .main #main-container .row:nth-of-type(5), .main #main-container .row:nth-of-type(10) {
+        margin-top: 1rem;
+        background-color: #2a5f49; }
+  .main #back-button {
+    margin-top: 2rem;
+    width: 10rem;
+    text-transform: uppercase;
+    padding: 8px;
+    background-color: #9c9c99;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 10px; }
+    .main #back-button:hover {
+      color: #fff;
+      background-color: #4d86db; }
+
+.main-info {
+  background-image: url("/assets/img/main-background.jpeg");
+  width: 100%;
+  height: 165vh; }
+  .main-info .info h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5rem; }
+  .main-info .info ol {
+    width: 90%;
+    border: 1px solid #9bd0cd78;
+    color: #fff;
+    background-color: #262627e0;
+    font-size: 1.2rem; }
+    .main-info .info ol li {
+      margin: 10px; }
+
+.main #number-countdown {
+  font-size: 8rem;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: white; }
+
+.main .game-container svg, .main .game-container rect {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  width: 94%;
+  height: 96%;
+  fill: transparent; }
+
+.main .game-container rect {
+  stroke: #80ccff;
+  stroke-width: 4;
+  animation-iteration-count: 1;
+  animation: lineDraw 1.5s linear;
+  animation-delay: 5.3s;
+  stroke-dashoffset: 5500;
+  stroke-dasharray: 5500;
+  animation-fill-mode: forwards; }
+
+.main .game-container .question p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 1.2rem;
+  color: #dbdddf;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  animation: fade .5s linear;
+  animation-fill-mode: forwards; }
+
+.main .game-container .question .choices {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: white;
+  width: 80%;
+  opacity: 0;
+  animation: fade 2s linear;
+  animation-fill-mode: forwards;
+  margin-top: 85%;
+  text-transform: uppercase;
+  margin-left: 10%; }
+  .main .game-container .question .choices .box {
+    border: 1px solid #25259b;
+    background-color: #3838ec;
+    border-radius: 12px;
+    margin-top: 4%;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 100%; }
+    .main .game-container .question .choices .box:hover {
+      background-color: #4d7996; }
+
+@keyframes lineDraw {
+  0% {
+    stroke-dashoffset: 5500; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+@media (min-width: 320px) {
+  .main {
+    height: 130vh; }
+    .main .game-container .question .choices {
+      margin-top: 55%; }
+    .main .validation-message {
+      left: 28%; }
+  .main-info {
+    height: 175vh; } }
+
+@media (min-width: 360px) {
+  .main {
+    height: 117vh; }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 2.3rem; }
+    .main .ranking-title {
+      font-size: 2.4rem; }
+  .main-info {
+    height: 140vh; } }
+
+@media (min-width: 375px) {
+  .main {
+    height: 117vh; }
+    .main a {
+      font-size: 2.5rem; }
+      .main a:hover .arrow {
+        display: inline-block;
+        font-size: 1.5rem; }
+    .main .numbers-countdown span p {
+      font-size: 3rem; }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 2.5rem; }
+    .main .validation-message {
+      left: 27%; }
+    .main .ranking-title {
+      font-size: 2.7rem; }
+    .main #main-container .row {
+      width: 94%; }
+      .main #main-container .row .col-6 h3 {
+        font-size: 1.2rem; }
+  .custom-game h2 {
+    font-size: 1.7rem; }
+  .custom-game input[type=submit] {
+    font-size: 1.1rem; }
+  .main-info {
+    height: 130vh; } }
+
+@media (min-width: 411px) {
+  .index h1 {
+    font-size: 3rem; }
+  .index h2 {
+    font-size: 1rem; }
+  .index small {
+    font-size: .9rem; }
+  .main {
+    height: 107vh; }
+    .main .game-container .question p {
+      font-size: 1.6rem; }
+    .main .game-container .question .choices {
+      font-size: 1.1rem;
+      margin-top: 55%; }
+      .main .game-container .question .choices .box {
+        padding: 13px; }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 2.7rem; }
+  .main-info {
+    height: 110vh; } }
+
+@media (min-width: 540px) {
+  .index h1 {
+    font-size: 3.3rem; }
+  .index h2 {
+    font-size: 1.2rem; }
+  .index small {
+    font-size: 1.1rem; }
+  .main {
+    height: 118vh; }
+    .main a {
+      font-size: 3rem; }
+      .main a:hover .arrow {
+        display: inline-block;
+        font-size: 2rem; }
+    .main .game-container .question .choices {
+      margin-top: 45%; }
+    .main .numbers-countdown span p {
+      font-size: 3.2rem; }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 2.7rem; }
+    .main .validation-message {
+      left: 32%; }
+    .main .validation-message-error {
+      left: 37%; }
+    .main .ranking-title {
+      font-size: 2.8rem; }
+    .main #main-container .row {
+      width: 94%; }
+      .main #main-container .row .col-6 h3 {
+        font-size: 1.2rem; }
+  .custom-game h2 {
+    font-size: 1.9rem; }
+  .custom-game label {
+    color: white;
+    font-size: 1.2rem; }
+  .custom-game input[type=submit] {
+    font-size: 1.2rem; }
+  .main-info {
+    height: 100vh; } }
+
+@media (min-width: 768px) {
+  .index h1 {
+    font-size: 3.4rem; }
+  .index h2 {
+    font-size: 1.3rem; }
+  .index small {
+    font-size: 1.2rem; }
+  .main {
+    height: 100vh; }
+    .main a {
+      font-size: 4rem; }
+      .main a:hover .arrow {
+        display: inline-block;
+        font-size: 3rem; }
+    .main .game-container .question p {
+      font-size: 2rem; }
+    .main .game-container .question .choices {
+      font-size: 1.3rem;
+      margin-top: 55%; }
+      .main .game-container .question .choices .box {
+        padding: 20px; }
+    .main .numbers-countdown span p {
+      font-size: 4.7rem; }
+    .main .validation-message h2, .main .validation-message-error h2 {
+      font-size: 4.3rem; }
+    .main .validation-message-error {
+      left: 36%; }
+    .main .ranking-title {
+      font-size: 3rem; }
+    .main #main-container .row {
+      width: 92%; }
+      .main #main-container .row .col-6 h3 {
+        font-size: 1.5rem; }
+  .custom-game h2 {
+    font-size: 2.3rem; }
+  .custom-game label {
+    color: white;
+    font-size: 1.5rem; }
+  .custom-game input[type=submit] {
+    font-size: 1.4rem; }
+  .main-info {
+    height: 100vh; }
+    .main-info .info h2 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 4.5rem;
+      margin-bottom: 2rem; }
+    .main-info .info ol {
+      width: 90%;
+      border: 1px solid #9bd0cd78;
+      color: #fff;
+      background-color: #262627e0;
+      font-size: 1.6rem; }
+      .main-info .info ol li {
+        margin: 10px; } }
+
+@media (min-width: 1024px) {
+  .index h1 {
+    font-size: 3.5rem; }
+  .index h2 {
+    font-size: 1.4rem; }
+  .index small {
+    font-size: 1.3rem; }
+  .main a {
+    font-size: 5rem; }
+    .main a:hover .arrow {
+      display: inline-block;
+      font-size: 4rem; }
+  .main #number-countdown {
+    font-size: 16rem; }
+  .main .game-container .question p {
+    font-size: 2.7rem; }
+  .main .game-container .question .choices {
+    font-size: 2rem;
+    animation: fade 4s linear;
+    animation-fill-mode: forwards;
+    margin-top: 45%; }
+    .main .game-container .question .choices .box {
+      padding: 27px; }
+  .main .numbers-countdown span p {
+    font-size: 5.2rem; }
+  .main .validation-message h2, .main .validation-message-error h2 {
+    font-size: 4.6rem; }
+  .main .validation-message {
+    left: 34%; }
+  .main .validation-message-error {
+    left: 40%; }
+  .custom-game h2 {
+    font-size: 2.5rem; }
+  .custom-game label {
+    color: white;
+    font-size: 1.5rem; }
+  .custom-game input[type=submit] {
+    font-size: 1.4rem; }
+  .main-info {
+    height: 100vh; }
+    .main-info .info h2 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 4.5rem;
+      margin-bottom: 2rem; }
+    .main-info .info ol {
+      width: 90%;
+      border: 1px solid #9bd0cd78;
+      color: #fff;
+      background-color: #262627e0;
+      font-size: 1.6rem; }
+      .main-info .info ol li {
+        margin: 10px; } }
+
+@media (min-width: 1300px) {
+  .index h1 {
+    font-size: 3.5rem; }
+  .index h2 {
+    font-size: 1.4rem; }
+  .index small {
+    font-size: 1.3rem; }
+  .main .game-container .question p {
+    font-size: 2.2rem; }
+  .main .game-container .question .choices {
+    font-size: 1.8rem;
+    animation: fade 2s linear;
+    animation-fill-mode: forwards;
+    margin-top: 10%; }
+    .main .game-container .question .choices .box {
+      padding: 15px; }
+  .main .validation-message {
+    left: 40%; }
+  .main .validation-message-error {
+    left: 42%; } }

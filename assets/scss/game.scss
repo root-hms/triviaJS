@@ -1,0 +1,88 @@
+.main{
+
+    #number-countdown{
+        font-size: 8rem;
+        font-family: 'Baloo Bhai 2', cursive;
+        color:white;      
+    } 
+    
+    .game-container{
+        svg,rect {
+            position: absolute;
+            top: 4%;
+            left: 6%;
+            width: 94%;
+            height: 96%;
+            fill: transparent;
+        }
+        rect{
+            stroke: #80ccff;
+            stroke-width: 4;
+            animation-iteration-count: 1;
+            animation: lineDraw 1.5s linear;
+            animation-delay: 5.3s;
+            stroke-dashoffset: 5500;
+            stroke-dasharray: 5500;
+            animation-fill-mode: forwards;
+        }
+        .question{
+            p{
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                width: 80%;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Baloo Bhai 2', cursive;
+                font-size: 1.2rem;
+                color: rgb(219, 221, 223);
+                background-color: rgba($color: #000000, $alpha: 0.8);
+                opacity: 0;
+                animation: fade .5s linear;
+                animation-fill-mode: forwards;
+            }
+            .choices{
+                font-family: 'Baloo Bhai 2', cursive;
+                font-weight: bolder;
+                font-size: 1rem;
+                color: white;  
+                width: 80%;  
+                opacity: 0;
+                animation: fade 2s linear;
+                animation-fill-mode: forwards;  
+                margin-top: 85%;
+                text-transform: uppercase;
+                margin-left: 10%;
+                .box{
+                    border: 1px solid rgb(37, 37, 155);
+                    background-color: rgb(56, 56, 236);
+                    border-radius: 12px;
+                    margin-top: 4%;
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 10px;
+                    width: 100%;
+                    &:hover{
+                        background-color: rgb(77, 121, 150);
+                    }
+                }                                         
+            }
+        }
+    }    
+
+}
+  
+@keyframes lineDraw{
+    0%{
+        stroke-dashoffset: 5500;
+    }  
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fade {
+    0%{ opacity: 0 }
+    50% { opacity: .5 }
+    100%{ opacity: 1;}
+  }

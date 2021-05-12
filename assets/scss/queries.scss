@@ -1,0 +1,473 @@
+@media(min-width: 320px){
+
+    .main{
+        height: 130vh;
+        .game-container{
+            .question{
+                .choices{
+                    margin-top: 55%;                                       
+                }
+            }
+        }  
+        .validation-message{
+            left: 28%;    
+        }                 
+    }
+
+    .main-info{
+        height: 175vh;         
+    }    
+    
+}
+
+@media(min-width: 360px){
+
+    .main{
+        height: 117vh;
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 2.3rem;
+            }
+        }
+        .ranking-title{
+            font-size: 2.4rem;      
+        }                            
+    }
+
+    .main-info{
+        height: 140vh;         
+    }      
+    
+}
+
+@media(min-width: 375px){
+
+    .main{
+        height: 117vh;
+        a{
+            font-size: 2.5rem;
+            &:hover{                              
+                .arrow{
+                    display: inline-block;
+                    font-size: 1.5rem;
+                }
+            }
+        } 
+        .numbers-countdown{
+            span{
+                p{
+                    font-size: 3rem;
+                }
+            }
+        }
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 2.5rem;
+            }
+        } 
+        .validation-message{
+            left: 27%;    
+        } 
+        .ranking-title{
+            font-size: 2.7rem;      
+        }    
+        #main-container{
+            .row{
+                width: 94%;
+                .col-6{
+                    h3{
+                        font-size: 1.2rem;
+                    }
+                }            
+            }                                      
+        }                                                             
+    }
+   
+    .custom-game{
+        h2{
+            font-size: 1.7rem;        
+        }  
+        input[type=submit] {
+            font-size: 1.1rem;
+        }                     
+    } 
+    
+    .main-info{
+        height: 130vh;         
+    }     
+    
+}
+
+@media(min-width: 411px){
+
+    .index{
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 1rem;      
+        }
+        small{
+            font-size: .9rem;
+        }   
+    }    
+
+    .main{
+        height: 107vh;
+        .game-container{
+            .question{
+                p{
+                    font-size: 1.6rem;
+                }                
+                .choices{
+                    font-size: 1.1rem;
+                    margin-top: 55%;   
+                    .box{
+                        padding: 13px;
+                    }                                                         
+                }
+            }
+        } 
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 2.7rem;
+            }
+        }                 
+    }
+
+    .main-info{
+        height: 110vh;         
+    }      
+    
+}
+
+@media(min-width: 540px){
+
+    .index{
+        h1{
+            font-size: 3.3rem;
+        }
+        h2{
+            font-size: 1.2rem;      
+        }
+        small{
+            font-size: 1.1rem;
+        }   
+    }     
+
+    .main{
+        height: 118vh;
+        a{
+            font-size: 3rem;
+            &:hover{                              
+                .arrow{
+                    display: inline-block;
+                    font-size: 2rem;
+                }
+            }
+        } 
+        .game-container{
+            .question{               
+                .choices{
+                    margin-top: 45%;                                                      
+                }
+            }
+        }
+        .numbers-countdown{
+            span{
+                p{
+                    font-size: 3.2rem;
+                }
+            }
+        }
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 2.7rem;
+            }
+        } 
+        .validation-message{
+            left: 32%;    
+        }  
+        .validation-message-error{
+            left: 37%;
+        }  
+        .ranking-title{
+            font-size: 2.8rem;      
+        }    
+        #main-container{
+            .row{
+                width: 94%;
+                .col-6{
+                    h3{
+                        font-size: 1.2rem;
+                    }
+                }            
+            }                                      
+        }                                
+    }
+
+    .custom-game{
+        h2{
+            font-size: 1.9rem;        
+        }  
+        label{
+            color: white;
+            font-size: 1.2rem;
+        }         
+        input[type=submit] {
+            font-size: 1.2rem;
+        }                     
+    } 
+    
+    .main-info{
+        height: 100vh;         
+    }     
+    
+}
+
+@media(min-width: 768px){
+
+    .index{
+        h1{
+            font-size: 3.4rem;
+        }
+        h2{
+            font-size: 1.3rem;      
+        }
+        small{
+            font-size: 1.2rem;
+        }   
+    }  
+
+
+    .main{
+        height: 100vh;
+        a{
+            font-size: 4rem;
+            &:hover{                              
+                .arrow{
+                    display: inline-block;
+                    font-size: 3rem;
+                }
+            }
+        }
+        .game-container{
+            .question{
+                p{
+                    font-size: 2rem;
+                }                
+                .choices{
+                    font-size: 1.3rem;
+                    margin-top: 55%;   
+                    .box{
+                        padding: 20px;
+                    }                                                         
+                }
+            }
+        } 
+        .numbers-countdown{
+            span{
+                p{
+                    font-size: 4.7rem;
+                }
+            }
+        }
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 4.3rem;
+            }
+        } 
+        .validation-message-error{
+            left: 36%;
+        } 
+        .ranking-title{
+            font-size: 3rem;      
+        }    
+        #main-container{
+            .row{
+                width: 92%;
+                .col-6{
+                    h3{
+                        font-size: 1.5rem;
+                    }
+                }            
+            }                                      
+        }                                           
+    }
+    .custom-game{
+        h2{
+            font-size: 2.3rem;        
+        }  
+        label{
+            color: white;
+            font-size: 1.5rem;
+        }         
+        input[type=submit] {
+            font-size: 1.4rem;
+        }                     
+    }  
+    
+    .main-info{
+        height: 100vh;  
+        .info{
+            h2{
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 4.5rem;
+                margin-bottom: 2rem;
+            }
+            ol{
+                width: 90%;
+                border: 1px solid #9bd0cd78;
+                color: #fff;
+                background-color: #262627e0;
+                font-size: 1.6rem;
+                li{
+                    margin: 10px;
+                }
+            }
+        }        
+    }    
+    
+}
+
+@media(min-width: 1024px){
+
+    .index{
+        h1{
+            font-size: 3.5rem;
+        }
+        h2{
+            font-size: 1.4rem;      
+        }
+        small{
+            font-size: 1.3rem;
+        }   
+    }     
+
+    .main{
+        a{
+            font-size: 5rem;
+            &:hover{                              
+                .arrow{
+                    display: inline-block;
+                    font-size: 4rem;
+                }
+            }
+        }
+        #number-countdown{
+            font-size: 16rem;     
+        } 
+        .game-container{
+            .question{
+                p{
+                    font-size: 2.7rem;
+                }                
+                .choices{
+                    font-size: 2rem;
+                    animation: fade 4s linear;
+                    animation-fill-mode: forwards; 
+                    margin-top: 45%;   
+                    .box{
+                        padding: 27px;
+                    }                                                         
+                }
+            }
+        } 
+        .numbers-countdown{
+            span{
+                p{
+                    font-size: 5.2rem;
+                }
+            }
+        }
+        .validation-message, .validation-message-error{   
+            h2{
+                font-size: 4.6rem;
+            }
+        } 
+        .validation-message{
+            left: 34%;    
+        }          
+        .validation-message-error{
+            left: 40%;
+        }                                  
+    }
+
+    .custom-game{
+        h2{
+            font-size: 2.5rem;        
+        }  
+        label{
+            color: white;
+            font-size: 1.5rem;
+        }         
+        input[type=submit] {
+            font-size: 1.4rem;
+        }                     
+    } 
+    
+    .main-info{
+        height: 100vh;  
+        .info{
+            h2{
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 4.5rem;
+                margin-bottom: 2rem;
+            }
+            ol{
+                width: 90%;
+                border: 1px solid #9bd0cd78;
+                color: #fff;
+                background-color: #262627e0;
+                font-size: 1.6rem;
+                li{
+                    margin: 10px;
+                }
+            }
+        }        
+    }      
+    
+}
+
+@media(min-width: 1300px){
+
+    .index{
+        h1{
+            font-size: 3.5rem;
+        }
+        h2{
+            font-size: 1.4rem;      
+        }
+        small{
+            font-size: 1.3rem;
+        }   
+    }     
+
+    .main{
+        .game-container{
+            .question{
+                p{
+                    font-size: 2.2rem;
+                }                
+                .choices{
+                    font-size: 1.8rem;
+                    animation: fade 2s linear;
+                    animation-fill-mode: forwards; 
+                    margin-top: 10%;   
+                    .box{
+                        padding: 15px;
+                    }                                                         
+                }
+            }
+        } 
+        .validation-message{
+            left: 40%;    
+        }          
+        .validation-message-error{
+            left: 42%;
+        }                                  
+    }
+    
+}
